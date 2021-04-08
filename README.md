@@ -1,11 +1,11 @@
-# UT Front End React App
+## UT Front End React App
 
 To run this project, do the following steps:
-### `cd phonebook`
-### `nvm install 10.16.0`
-### `nvm use 10.16.0`
-### `yarn`
-### `yarn start`
+#### `cd phonebook`
+#### `nvm install 10.16.0`
+#### `nvm use 10.16.0`
+#### `yarn`
+#### `yarn start`
 
 The app will open in [http://localhost:3000](http://localhost:3000).
 #
