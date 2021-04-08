@@ -1,4 +1,4 @@
-# Unleashed Technologies Front End App
+# UT Front End React App
 
 To run this project, do the following steps:
 ### `cd phonebook`
