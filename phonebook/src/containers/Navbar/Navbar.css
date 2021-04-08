@@ -1,0 +1,67 @@
+.navbar {
+    background-color: #f45b1f;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-brand {
+    float: none;
+    height: 50px;
+    padding: 15px 20px;
+    font-size: 18px;
+    line-height: 15px;
+}
+
+.navbar-default .navbar-brand {
+   color: #ffffff;
+    padding-top: .4rem;
+}
+
+.logo {
+    float: left;
+}
+
+@media only screen and (max-width: 280px) {
+
+    .container>.navbar-header {
+        margin-left: 0px;
+    }
+
+    .logo {
+          float: none;
+      }
+    .navbar-brand {
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .navbar-default .navbar-brand {
+        padding-left: 5px;
+    }
+
+    .navbar-brand {
+        padding: 0px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .logo {
+        margin-left: 3px;
+    }
+
+    .navbar-default .navbar-brand {
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+        margin-left: 0px;
+    }
+}
